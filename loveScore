@@ -1,0 +1,14 @@
+prompt("What is your Name:");
+prompt("What is your Lover's Name:");
+var loveScore = Math.random()*100;
+loveScore= Math.floor(loveScore)+1;
+
+if(loveScore > 70){
+    alert("Your Love Percentage is "+loveScore+"%."+" You love each other like Kanye love Kanye.");
+}
+if(loveScore=30 && loveScore<=70){
+    alert("Your Love Percentage is "+loveScore+"%");
+}
+if(loveScore<=30){
+    alert("Your Love Percentage is "+ loveScore + "%."+" You go together like oil and water.");
+    }
